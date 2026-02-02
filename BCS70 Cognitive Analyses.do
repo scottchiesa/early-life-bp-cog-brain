@@ -1,7 +1,7 @@
 *****************************************************************************************************************************************************************
 **************************************************************BCS70 Blood Pressure and Cognition Analyses********************************************************
-****************************************************************Mayibongwe Mugoba and Scott Chiesa 2024**********************************************************
-
+**************************************************************************Mugoba et al 2026**********************************************************************
+*****************************************************************************************************************************************************************
 
 
 *********************************************************************DATASET MERGING AND PREPARATION*************************************************************
@@ -140,23 +140,6 @@ rename B10BPDIAR3 Third_Adult_Diastolic
 gen Adult_Systolic = (Second_Adult_Systolic + Third_Adult_Systolic)/2
 gen Adult_Diastolic = (Second_Adult_Diastolic + Third_Adult_Diastolic)/2
 
-//Hypertension//
-
-gen Adult_Hypertension = .
-replace Adult_Hypertension = 1 if Adult_Systolic >=140 & Adult_Systolic != .
-replace Adult_Hypertension = 1 if Adult_Diastolic >=90 & Adult_Diastolic != .
-replace Adult_Hypertension = 0 if Adult_Hypertension !=1 & Adult_Systolic != . 
-replace Adult_Hypertension = 0 if Adult_Hypertension !=1 & Adult_Diastolic != .
-replace Adult_Hypertension = 2 if Adult_Systolic >=160  & Adult_Systolic != .
-replace Adult_Hypertension = 2 if Adult_Diastolic >=100 & Adult_Diastolic != .
-
-gen Child_Hypertension = .
-replace Child_Hypertension = 1 if Ten_Systolic >=116 & Ten_Systolic != .
-replace Child_Hypertension = 1 if Ten_Diastolic >=80 & Ten_Diastolic != .
-replace Child_Hypertension = 0 if Child_Hypertension !=1 & Ten_Systolic != . 
-replace Child_Hypertension = 0 if Child_Hypertension !=1 & Ten_Diastolic != .
-
-
 ****************************OUTCOMES***********************************
 
 //Immediate and Delayed Recall//
@@ -213,7 +196,7 @@ vl create outcomes = (final_cog z_Imm_Recall z_Delay_Recall z_Verbal_Fluency z_S
 foreach outcome of varlist $outcomes {
 	foreach exposure of varlist $exposures {
 		mi estimate: regress `outcome' `exposure' age i.sex i.ethnic 
-		mi estimate: regress `outcome' `exposure' age i.sex i.ethnic cog_g_10 i.SES Overcrowding i.Highest_Ed  
+		mi estimate: regress `outcome' `exposure' age i.sex i.ethnic cog_g_10 i.SES Overcrowding
 		mi estimate: regress `outcome' `exposure' age i.sex i.ethnic cog_g_10 SES Overcrowding i.Highest_Ed Adult_BMI i.Smoking_Status i.Adult_SES Activity Malaise 
 	}
 	
