@@ -2,7 +2,9 @@
 
 _Mayibongwe Mugoba, Renate M. Houts, Annchen R. Knodt, Reremoana F. Theodore, Richie Poulton, Ahmad R. Hariri, Avshalom Caspi, Terrie E. Moffitt, and Scott T. Chiesa_
 
-SAS and Stata code for manuscript investigating associations between elevated blood presssure across the first five decades of life and brain and cognitive health in midlife. Primary analyses come from the Dunedin Multidisciplinary Health and Development Study with replication of cognitive outcomes tested in the much larger 1970 British Cohort Study. Manuscript under review in Brain Communications and update will be posted here once accepted.
+SAS and Stata code for manuscript investigating associations between elevated blood presssure across the first five decades of life and brain and cognitive health in midlife. Primary analyses come from the Dunedin Multidisciplinary Health and Development Study with replication of cognitive outcomes tested in the much larger 1970 British Cohort Study. 
+
+Manuscript under review in Brain Communications and update will be posted here once accepted.
 
 ## ABSTRACT
 
