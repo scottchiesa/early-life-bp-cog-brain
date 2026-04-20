@@ -4,7 +4,7 @@ _Mayibongwe Mugoba, Renate M. Houts, Annchen R. Knodt, Reremoana F. Theodore, Ri
 
 SAS and Stata code for manuscript investigating associations between elevated blood presssure across the first five decades of life and brain and cognitive health in midlife. Primary analyses come from the Dunedin Multidisciplinary Health and Development Study with replication of cognitive outcomes tested in the much larger 1970 British Cohort Study. 
 
-Manuscript accepted to Brain Communications.
+Manuscript accepted by Brain Communications and DOI will be posted here once published.
 
 ## ABSTRACT
 
