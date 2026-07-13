@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-13T08:27:21Z",
+  "_captured_run_id": "r_00fc1ad17f574deab0b076558b95e308",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote BP_outliers (8 rows, 23 columns).",
+    "NOTE: Read 8 rows from BP_preMI1.",
+    "NOTE: PROC FREQ"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

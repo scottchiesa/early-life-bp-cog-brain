@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_auc_area",
+  "source_file": "ChiesaBP_Jan2026.sas",
+  "source_blob_sha": "e18a9923df2323c0bdebf158a60af979259ad6bf",
+  "source_commit": "7c73e0cdcf92bfddd937ae971a067debf66fd748",
+  "notes": "Trapezoidal area-under-curve quantification of cumulative early-life BP exposure (data BP_area) lifted verbatim from the upstream pipeline, plus its PROC MEANS summary. Mock BP_imputed (8 participants) inlined into the script so it is self-contained; real BP_imputed comes from restricted Dunedin Study data via PROC MI."
+}

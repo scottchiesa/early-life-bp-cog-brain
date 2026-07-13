@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_reg_corr",
+  "source_file": "ChiesaBP_Jan2026.sas",
+  "source_blob_sha": "e18a9923df2323c0bdebf158a60af979259ad6bf",
+  "source_commit": "7c73e0cdcf92bfddd937ae971a067debf66fd748",
+  "notes": "Standardize-then-regress modeling sequence relating cumulative diastolic BP exposure (AUC0726_dia, AUC2645_dia) to BrainAGE45: PROC STANDARD (mean 0 SD 1), three nested PROC REG models with standardized betas + CIs (stb clb) and ODS ParameterEstimates, and PROC CORR of exposures with the outcome. Row-subsetting to complete cases moved into a preceding DATA step; models are the author's own. Run against a mock BP_area (10 participants) matching the columns the sequence reads; real BP_area derives from restricted Dunedin data."
+}

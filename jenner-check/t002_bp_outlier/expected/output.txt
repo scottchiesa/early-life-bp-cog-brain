@@ -1,0 +1,34 @@
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+o_sys7    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+-1                1     12.50            1        12.50
+0                 7     87.50            8       100.00
+
+                                     Cumulative    Cumulative
+o_sys45    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+0                  8    100.00            8       100.00
+
+                                    Cumulative    Cumulative
+o_dia7    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+0                 8    100.00            8       100.00
+
+                                     Cumulative    Cumulative
+o_dia45    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+0                  8    100.00            8       100.00
+
+                                    Cumulative    Cumulative
+o_map7    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+-1                1     12.50            1        12.50
+0                 7     87.50            8       100.00
+
+                                     Cumulative    Cumulative
+o_map45    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+0                  8    100.00            8       100.00
+
