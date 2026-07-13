@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_bp_outlier",
+  "source_file": "ChiesaBP_Jan2026.sas",
+  "source_blob_sha": "e18a9923df2323c0bdebf158a60af979259ad6bf",
+  "source_commit": "7c73e0cdcf92bfddd937ae971a067debf66fd748",
+  "notes": "Sex-specific +/- 2.5 SD outlier screen for systolic/diastolic/MAP readings across ages 7..45, with the author's own mean/SD constants and array-driven cut-off and flagging logic, plus a PROC FREQ of the outlier indicators. Run against a mock BP_preMI1 (8 participants) matching the columns the step reads; the real BP_preMI1 is built from restricted Dunedin Study data."
+}
